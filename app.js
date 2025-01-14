@@ -29,7 +29,7 @@ const fileFilter = (req, file, cb) => {
 };
 
 const MONGODB_URI =
-  'mongodb+srv://root:root@cluster0.q4mse.mongodb.net/messagesDb?retryWrites=true&w=majority&appName=Cluster0';
+  'mongodb+srv://<mongodb_user>:<mongodb_user_password>@cluster0.q4mse.mongodb.net/messagesDb?retryWrites=true&w=majority&appName=Cluster0';
 
 const feedRoutes = require('./routes/feed');
 const authRoutes = require('./routes/auth');
