@@ -1,4 +1,4 @@
-Post app using ExpressJs.
+Post app using ExpressJs and RestAPI
 
 ## **Purpose**
 
